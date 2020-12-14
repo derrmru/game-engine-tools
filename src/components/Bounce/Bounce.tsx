@@ -35,7 +35,7 @@ const Bounce: React.FC<Props> = (props) => {
                 {width}
                 {height}
             {
-                touchRef.current
+                touchRef.current && <div>Touched!</div>
             }
         </div>
     )
