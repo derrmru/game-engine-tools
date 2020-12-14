@@ -1,4 +1,4 @@
-export default {
+const is = {
     touchScreen: () => {
         let response = false;
         window.addEventListener('touchstart', function onFirstTouch() {
@@ -8,3 +8,5 @@ export default {
         return response
     }
 }
+
+export default is
