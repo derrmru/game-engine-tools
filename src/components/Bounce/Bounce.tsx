@@ -32,6 +32,8 @@ const Bounce: React.FC<Props> = (props) => {
             id="bounce-container" 
             style={{width: props.width + "%", height: props.height + '%'}}
             >
+                {width}
+                {height}
             {
                 touchRef.current
             }
